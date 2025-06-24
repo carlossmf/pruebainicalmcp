@@ -1,0 +1,56 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Ignore Rider project files
+.idea/
+*.sln.iml
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore local secrets
+secrets.json
+
+# Ignore publish output
+publish/
+
+# Ignore node_modules (if using npm/yarn)
+node_modules/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore test results
+TestResults/
+
+# Ignore other files
+*.swp
+*.bak
+*.tmp
+*.tmp.*
+
+# Ignore MCP and Docker files
+.mcp.json
+cmp.json
